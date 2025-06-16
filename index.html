@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Immigration Elite Canada - Recrutement International</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#1a56db',secondary:'#e53e3e'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Inter', sans-serif;
+}
+.hero-section {
+background-image: url('https://readdy.ai/api/search-image?query=Beautiful%20panoramic%20view%20of%20Toronto%20skyline%20with%20CN%20Tower%2C%20modern%20skyscrapers%2C%20and%20Lake%20Ontario%20during%20sunset.%20The%20image%20has%20a%20gradient%20from%20clear%20blue%20to%20soft%20orange%20on%20the%20left%20side%2C%20creating%20a%20natural%20transition%20for%20text%20overlay.%20Professional%20high-quality%20photograph%20with%20perfect%20lighting%20and%20composition.&width=1920&height=800&seq=1&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+.hero-overlay {
+background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 50%, rgba(255,255,255,0) 100%);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.custom-checkbox {
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+.custom-checkbox input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
+}
+.checkmark {
+height: 20px;
+width: 20px;
+background-color: #fff;
+border: 2px solid #cbd5e1;
+border-radius: 4px;
+position: relative;
+}
+.custom-checkbox input:checked ~ .checkmark {
+background-color: #1a56db;
+border-color: #1a56db;
+}
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+.custom-checkbox input:checked ~ .checkmark:after {
+display: block;
+}
+.custom-checkbox .checkmark:after {
+left: 6px;
+top: 2px;
+width: 6px;
+height: 10px;
+border: solid white;
+border-width: 0 2px 2px 0;
+transform: rotate(45deg);
+}
+.file-input-container {
+position: relative;
+overflow: hidden;
+}
+.file-input-container input[type="file"] {
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+width: 100%;
+height: 100%;
+cursor: pointer;
+}
+</style>
+</head>
+<body class="bg-gray-50">
+<!-- Header Navigation -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+<div class="container mx-auto px-4 py-3 flex items-center justify-between">
+<div class="flex items-center">
+<a href="#" class="text-2xl font-['Pacifico'] text-primary">Immigration Elite</a>
+</div>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="/" id="home-link" class="text-gray-700 hover:text-primary font-medium">Accueil</a>
+<a href="#about" class="text-gray-700 hover:text-primary font-medium">À propos</a>
+<a href="#services" class="text-gray-700 hover:text-primary font-medium">Services</a>
+<a href="#recruitment" class="text-gray-700 hover:text-primary font-medium">Recrutement</a>
+<a href="#contact" class="text-gray-700 hover:text-primary font-medium">Contact</a>
+</nav>
+<a href="#apply" class="hidden md:inline-block bg-primary text-white px-5 py-2.5 !rounded-button font-medium hover:bg-blue-700 transition duration-300 whitespace-nowrap">Postuler Maintenant</a>
+<button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700" id="mobile-menu-button">
+<i class="ri-menu-line ri-lg"></i>
+</button>
+</div>
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+<div class="container mx-auto px-4 py-3 space-y-3">
+<a href="#" class="block text-gray-700 hover:text-primary font-medium">Accueil</a>
+<a href="#about" class="block text-gray-700 hover:text-primary font-medium">À propos</a>
+<a href="#services" class="block text-gray-700 hover:text-primary font-medium">Services</a>
+<a href="#recruitment" class="block text-gray-700 hover:text-primary font-medium">Recrutement</a>
+<a href="#contact" class="block text-gray-700 hover:text-primary font-medium">Contact</a>
+<a href="#apply" class="block bg-primary text-white px-4 py-2 !rounded-button font-medium hover:bg-blue-700 transition duration-300 text-center whitespace-nowrap">Postuler Maintenant</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="hero-section relative">
+<div class="hero-overlay w-full h-full absolute inset-0"></div>
+<div class="container mx-auto px-4 py-20 relative z-10">
+<div class="max-w-2xl">
+<h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Recrutement International - Immigration Elite Canada</h1>
+<p class="text-xl text-gray-700 mb-8">Opportunités d'emploi au Canada sponsorisées par le gouvernement Canadien. Commencez votre nouvelle vie professionnelle dès aujourd'hui.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="#apply" class="bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-700 transition duration-300 text-center whitespace-nowrap">Commencer votre inscription</a>
+<a href="#info" class="bg-white text-primary border border-primary px-6 py-3 !rounded-button font-medium hover:bg-gray-50 transition duration-300 text-center whitespace-nowrap">En savoir plus</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Information Section -->
+<section id="info" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Opportunité Exceptionnelle</h2>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">Un avis de recrutement international sans distinction de sexe organisé par l'entreprise d'immigration élite CANADA sponsorisé par le gouvernement Canadien.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-gray-50 p-8 rounded-lg shadow-sm text-center">
+<div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<i class="ri-money-dollar-circle-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Salaire Attractif</h3>
+<p class="text-gray-600">À partir de $5.350 dollars US par mois</p>
+</div>
+<div class="bg-gray-50 p-8 rounded-lg shadow-sm text-center">
+<div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<i class="ri-time-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Horaires Flexibles</h3>
+<p class="text-gray-600">Travail à temps partiel et bien payé mensuellement</p>
+</div>
+<div class="bg-gray-50 p-8 rounded-lg shadow-sm text-center">
+<div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<i class="ri-file-list-3-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Contrat Avantageux</h3>
+<p class="text-gray-600">Contrat de 2 à 5 ans renouvelable avec des primes</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section id="about" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="flex flex-col md:flex-row items-center gap-12">
+<div class="md:w-1/2">
+<img src="https://readdy.ai/api/search-image?query=Diverse%20group%20of%20professionals%20in%20a%20modern%20Canadian%20office%20environment.%20The%20image%20shows%20people%20of%20different%20ethnicities%20and%20genders%20collaborating%20in%20a%20bright%2C%20contemporary%20workspace%20with%20Canadian%20elements%20visible.%20The%20atmosphere%20is%20positive%20and%20welcoming%2C%20with%20natural%20lighting%20and%20professional%20attire.%20High-quality%20corporate%20photography%20style.&width=600&height=400&seq=2&orientation=landscape" alt="Professionnels au Canada" class="rounded-lg shadow-md w-full h-auto object-cover">
+</div>
+<div class="md:w-1/2">
+<h2 class="text-3xl font-bold text-gray-900 mb-6">À propos de notre programme</h2>
+<p class="text-gray-600 mb-4">L'organisation d'immigration élite CANADA recherche à présent des personnes diplômées, capables, désirant immigrer au Canada pour s'adapter à l'environnement de travail au Canada.</p>
+<p class="text-gray-600 mb-4">Ce recrutement est une promotion de la lutte contre le chômage et c'est l'entreprise même qui s'occupe de tous les papiers de voyage si le postulant valide son inscription.</p>
+<p class="text-gray-600 mb-6">Quand vous participez à ce recrutement, c'est le comité d'organisation qui s'occupera de vous faire tous vos papiers de voyage et autres : visa, billet d'avion, carte de séjour, hébergement, carte d'embauche et autres.</p>
+<a href="#apply" class="inline-block bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-700 transition duration-300 whitespace-nowrap">Postuler maintenant</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section id="services" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Nos Services</h2>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">Découvrez tous les avantages inclus dans notre programme d'immigration professionnelle.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-passport-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Visa et Immigration</h3>
+<p class="text-gray-600">Nous prenons en charge toutes les démarches administratives pour l'obtention de votre visa et autres documents d'immigration.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-plane-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Transport International</h3>
+<p class="text-gray-600">Billet d'avion inclus dans le programme pour vous permettre de rejoindre le Canada sans frais supplémentaires.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-home-4-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Hébergement</h3>
+<p class="text-gray-600">Un logement vous sera fourni dès votre arrivée pour faciliter votre installation au Canada.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-government-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Carte de Séjour</h3>
+<p class="text-gray-600">Nous vous aidons à obtenir votre carte de séjour légale pour résider au Canada pendant la durée de votre contrat.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-briefcase-4-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Emploi Garanti</h3>
+<p class="text-gray-600">Une carte d'embauche vous sera délivrée, garantissant votre emploi dès votre arrivée au Canada.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-team-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Intégration Sociale</h3>
+<p class="text-gray-600">Accompagnement pour faciliter votre intégration dans la société canadienne et dans votre nouvel environnement de travail.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Recruitment Section -->
+<section id="recruitment" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Conditions d'Éligibilité</h2>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">Pour participer à notre programme de recrutement international, vous devez remplir les conditions suivantes.</p>
+</div>
+<div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm">
+<div class="mb-8">
+<h3 class="text-xl font-semibold text-gray-900 mb-4">Conditions Générales à Remplir</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-check-line ri-lg"></i>
+</div>
+<span class="text-gray-600">Être disponible pour le voyage</span>
+</li>
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-check-line ri-lg"></i>
+</div>
+<span class="text-gray-600">Savoir parler le français</span>
+</li>
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-check-line ri-lg"></i>
+</div>
+<span class="text-gray-600">Avoir un diplôme au moins</span>
+</li>
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-check-line ri-lg"></i>
+</div>
+<span class="text-gray-600">Être capable de payer les frais d'inscription: $ 200 USD (payable uniquement après l'acceptation de votre dossier)</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">Documents à Fournir</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-file-list-line ri-lg"></i>
+</div>
+<span class="text-gray-600">Une lettre de motivation</span>
+</li>
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-file-list-line ri-lg"></i>
+</div>
+<span class="text-gray-600">Curriculum bien détaillé (CV)</span>
+</li>
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-file-list-line ri-lg"></i>
+</div>
+<span class="text-gray-600">Copie de votre Carte d'identité</span>
+</li>
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-file-list-line ri-lg"></i>
+</div>
+<span class="text-gray-600">(2) photos d'identité</span>
+</li>
+<li class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-2 mt-0.5">
+<i class="ri-file-list-line ri-lg"></i>
+</div>
+<span class="text-gray-600">Le dernier diplôme obtenu</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Application Form Section -->
+<section id="apply" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Formulaire d'Inscription</h2>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">Remplissez le formulaire ci-dessous pour postuler au programme de recrutement international.</p>
+</div>
+<div class="max-w-4xl mx-auto bg-gray-50 p-8 rounded-lg shadow-sm">
+<form id="application-form" class="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="YOUR-ACCESS-KEY-HERE">
+<input type="hidden" name="subject" value="Nouvelle candidature - Immigration Elite Canada">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">Prénom</label>
+<input type="text" id="first-name" name="first-name" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required>
+</div>
+<div>
+<label for="last-name" class="block text-sm font-medium text-gray-700 mb-1">Nom</label>
+<input type="text" id="last-name" name="last-name" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required>
+</div>
+<div>
+<label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+<input type="email" id="email" name="email" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required>
+</div>
+<div>
+<label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Téléphone</label>
+<input type="tel" id="phone" name="phone" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required>
+</div>
+<div>
+<label for="nationality" class="block text-sm font-medium text-gray-700 mb-1">Nationalité</label>
+<input type="text" id="nationality" name="nationality" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required>
+</div>
+<div>
+<label for="education" class="block text-sm font-medium text-gray-700 mb-1">Niveau d'études</label>
+<div class="relative">
+<select id="education" name="education" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition appearance-none pr-8" required>
+<option value="">Sélectionnez votre niveau</option>
+<option value="bac">Baccalauréat</option>
+<option value="licence">Licence</option>
+<option value="master">Master</option>
+<option value="doctorat">Doctorat</option>
+<option value="autre">Autre</option>
+</select>
+<div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+</div>
+</div>
+<div>
+<label for="motivation" class="block text-sm font-medium text-gray-700 mb-1">Lettre de motivation</label>
+<textarea id="motivation" name="motivation" rows="4" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required></textarea>
+</div>
+<div class="space-y-4">
+<p class="text-sm font-medium text-gray-700">Documents à télécharger</p>
+<div>
+<label for="cv" class="block text-sm text-gray-600 mb-1">CV détaillé</label>
+<div class="file-input-container">
+<button type="button" class="w-full px-4 py-2.5 border border-gray-300 rounded bg-white text-left text-gray-500 flex items-center !rounded-button whitespace-nowrap">
+<i class="ri-upload-2-line mr-2"></i>
+<span id="cv-filename">Choisir un fichier</span>
+</button>
+<input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+</div>
+</div>
+<div>
+<label for="id-card" class="block text-sm text-gray-600 mb-1">Copie de la carte d'identité</label>
+<div class="file-input-container">
+<button type="button" class="w-full px-4 py-2.5 border border-gray-300 rounded bg-white text-left text-gray-500 flex items-center !rounded-button whitespace-nowrap">
+<i class="ri-upload-2-line mr-2"></i>
+<span id="id-filename">Choisir un fichier</span>
+</button>
+<input type="file" id="id-card" name="id-card" accept=".pdf,.jpg,.jpeg,.png" required>
+</div>
+</div>
+<div>
+<label for="photos" class="block text-sm text-gray-600 mb-1">Photos d'identité (2)</label>
+<div class="file-input-container">
+<button type="button" class="w-full px-4 py-2.5 border border-gray-300 rounded bg-white text-left text-gray-500 flex items-center !rounded-button whitespace-nowrap">
+<i class="ri-upload-2-line mr-2"></i>
+<span id="photos-filename">Choisir des fichiers</span>
+</button>
+<input type="file" id="photos" name="photos" accept=".jpg,.jpeg,.png" multiple required>
+</div>
+</div>
+<div>
+<label for="diploma" class="block text-sm text-gray-600 mb-1">Dernier diplôme obtenu</label>
+<div class="file-input-container">
+<button type="button" class="w-full px-4 py-2.5 border border-gray-300 rounded bg-white text-left text-gray-500 flex items-center !rounded-button whitespace-nowrap">
+<i class="ri-upload-2-line mr-2"></i>
+<span id="diploma-filename">Choisir un fichier</span>
+</button>
+<input type="file" id="diploma" name="diploma" accept=".pdf,.jpg,.jpeg,.png" required>
+</div>
+</div>
+</div>
+<div>
+<label class="custom-checkbox flex items-start">
+<input type="checkbox" id="terms" name="terms" required>
+<span class="checkmark mr-3 mt-0.5"></span>
+<span class="text-sm text-gray-600">J'accepte les conditions générales et je confirme être disponible pour le voyage, savoir parler français, avoir un diplôme et être capable de payer les frais d'inscription de $200 USD après l'acceptation de mon dossier.</span>
+</label>
+</div>
+<div class="text-center">
+<button type="submit" class="bg-primary text-white px-8 py-3 !rounded-button font-medium hover:bg-blue-700 transition duration-300 whitespace-nowrap">Soumettre ma candidature</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Contactez-nous</h2>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">Vous avez des questions sur notre programme de recrutement ? N'hésitez pas à nous contacter.</p>
+</div>
+<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="bg-white p-8 rounded-lg shadow-sm">
+<h3 class="text-xl font-semibold text-gray-900 mb-6">Envoyez-nous un message</h3>
+<form id="contact-form" class="space-y-4">
+<div>
+<label for="contact-name" class="block text-sm font-medium text-gray-700 mb-1">Nom complet</label>
+<input type="text" id="contact-name" name="contact-name" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required>
+</div>
+<div>
+<label for="contact-email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+<input type="email" id="contact-email" name="contact-email" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required>
+</div>
+<div>
+<label for="contact-subject" class="block text-sm font-medium text-gray-700 mb-1">Sujet</label>
+<input type="text" id="contact-subject" name="contact-subject" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required>
+</div>
+<div>
+<label for="contact-message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+<textarea id="contact-message" name="contact-message" rows="4" class="w-full px-4 py-2.5 border border-gray-300 rounded focus:ring-2 focus:ring-primary focus:border-primary outline-none transition" required></textarea>
+</div>
+<div>
+<button type="submit" class="bg-primary text-white px-6 py-2.5 !rounded-button font-medium hover:bg-blue-700 transition duration-300 whitespace-nowrap">Envoyer le message</button>
+</div>
+</form>
+</div>
+<div class="bg-white p-8 rounded-lg shadow-sm">
+<h3 class="text-xl font-semibold text-gray-900 mb-6">Informations de contact</h3>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full text-primary mr-4">
+<i class="ri-map-pin-line ri-lg"></i>
+</div>
+<div>
+<p class="font-medium text-gray-900">Adresse</p>
+<p class="text-gray-600">123 Avenue Immigration, Toronto, ON M5V 2H1, Canada</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full text-primary mr-4">
+<i class="ri-mail-line ri-lg"></i>
+</div>
+<div>
+<p class="font-medium text-gray-900">Email</p>
+<p class="text-gray-600">immigrationelitecanada@gmail.com</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full text-primary mr-4">
+<i class="ri-whatsapp-line ri-lg"></i>
+</div>
+<div>
+<p class="font-medium text-gray-900">WhatsApp</p>
+<p class="text-gray-600">+1 419-548-9982</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full text-primary mr-4">
+<i class="ri-time-line ri-lg"></i>
+</div>
+<div>
+<p class="font-medium text-gray-900">Heures d'ouverture</p>
+<p class="text-gray-600">Lundi - Vendredi: 9h00 - 17h00</p>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<h4 class="font-medium text-gray-900 mb-3">Suivez-nous</h4>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full text-primary hover:bg-blue-200 transition">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full text-primary hover:bg-blue-200 transition">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full text-primary hover:bg-blue-200 transition">
+<i class="ri-instagram-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full text-primary hover:bg-blue-200 transition">
+<i class="ri-linkedin-fill"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Job Sectors Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Secteurs de Travail</h2>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">Découvrez les différents secteurs dans lesquels nous recrutons activement pour le Canada.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-heart-pulse-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Secteur Médical</h3>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Infirmiers qualifiés</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Aide-soignants</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Techniciens de laboratoire</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Pharmaciens</span>
+</li>
+</ul>
+</div>
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-building-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Construction</h3>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Chefs de chantier</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Électriciens</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Plombiers</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Maçons qualifiés</span>
+</li>
+</ul>
+</div>
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-computer-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Informatique</h3>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Développeurs</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Administrateurs système</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Analystes de données</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Experts en cybersécurité</span>
+</li>
+</ul>
+</div>
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-steering-2-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Transport</h3>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Chauffeurs poids lourds</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Chauffeurs de bus</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Livreurs professionnels</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Conducteurs de machines</span>
+</li>
+</ul>
+</div>
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-briefcase-4-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Administration</h3>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Assistants administratifs</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Comptables</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Gestionnaires RH</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Secrétaires bilingues</span>
+</li>
+</ul>
+</div>
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-hotel-line ri-lg text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Hôtellerie</h3>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Chefs cuisiniers</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Réceptionnistes</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Managers hôteliers</span>
+</li>
+<li class="flex items-center">
+<i class="ri-checkbox-circle-line text-primary mr-2"></i>
+<span>Personnel de service</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Témoignages de Nos Immigrants</h2>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">Découvrez les expériences réussies de personnes qui ont fait confiance à notre programme.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="flex items-center mb-4">
+<img src="https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20a%20middle-aged%20African%20man%20wearing%20a%20medical%20coat%20in%20a%20hospital%20setting%2C%20friendly%20smile%2C%20natural%20lighting&width=60&height=60&seq=1&orientation=squarish" alt="Dr. Emmanuel Kouassi" class="w-12 h-12 rounded-full object-cover mr-4">
+<div>
+<h4 class="font-semibold text-gray-900">Dr. Emmanuel Kouassi</h4>
+<p class="text-sm text-gray-600">Médecin Généraliste</p>
+</div>
+</div>
+<p class="text-gray-600 mb-4">"Grâce à Immigration Elite, j'ai pu réaliser mon rêve de pratiquer la médecine au Canada. Le processus était clair et bien encadré. Je travaille maintenant dans un hôpital à Toronto depuis 2 ans."</p>
+<div class="flex items-center text-primary">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="flex items-center mb-4">
+<img src="https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20a%20young%20Asian%20woman%20in%20business%20attire%2C%20warm%20smile%2C%20office%20background%2C%20natural%20lighting&width=60&height=60&seq=2&orientation=squarish" alt="Sophie Chen" class="w-12 h-12 rounded-full object-cover mr-4">
+<div>
+<h4 class="font-semibold text-gray-900">Sophie Chen</h4>
+<p class="text-sm text-gray-600">Développeuse Full-Stack</p>
+</div>
+</div>
+<p class="text-gray-600 mb-4">"Le support d'Immigration Elite a été exceptionnel. En moins de 6 mois, j'ai obtenu mon visa et un poste dans une entreprise tech à Vancouver. Leur accompagnement a fait toute la différence."</p>
+<div class="flex items-center text-primary">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<div class="flex items-center mb-4">
+<img src="https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20a%20middle-aged%20European%20man%20wearing%20a%20construction%20safety%20helmet%2C%20confident%20smile%2C%20construction%20site%20background&width=60&height=60&seq=3&orientation=squarish" alt="Pierre Dubois" class="w-12 h-12 rounded-full object-cover mr-4">
+<div>
+<h4 class="font-semibold text-gray-900">Pierre Dubois</h4>
+<p class="text-sm text-gray-600">Chef de Chantier</p>
+</div>
+</div>
+<p class="text-gray-600 mb-4">"Je suis arrivé à Montréal il y a 18 mois comme chef de chantier. Immigration Elite m'a aidé avec tous les papiers et m'a trouvé un excellent poste. Ma famille m'a rejoint 6 mois plus tard."</p>
+<div class="flex items-center text-primary">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Questions Fréquentes</h2>
+<p class="text-lg text-gray-600 max-w-3xl mx-auto">Retrouvez les réponses aux questions les plus fréquemment posées sur notre programme de recrutement.</p>
+</div>
+<div class="max-w-3xl mx-auto">
+<div class="space-y-6" id="faq-container">
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-question w-full flex items-center justify-between bg-gray-50 p-4 text-left font-medium text-gray-900 hover:bg-gray-100 transition" data-index="0">
+<span>Quand dois-je payer les frais d'inscription ?</span>
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</button>
+<div class="faq-answer p-4 bg-white hidden">
+<p class="text-gray-600">Les frais d'inscription de $200 USD sont à payer uniquement après l'acceptation de votre dossier. Vous ne devez effectuer aucun paiement avant d'avoir reçu une confirmation officielle de notre part.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-question w-full flex items-center justify-between bg-gray-50 p-4 text-left font-medium text-gray-900 hover:bg-gray-100 transition" data-index="1">
+<span>Combien de temps dure le processus de recrutement ?</span>
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</button>
+<div class="faq-answer p-4 bg-white hidden">
+<p class="text-gray-600">Le processus de recrutement dure généralement entre 4 et 8 semaines, depuis la soumission de votre candidature jusqu'à la décision finale. Ce délai peut varier en fonction du volume de candidatures reçues.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-question w-full flex items-center justify-between bg-gray-50 p-4 text-left font-medium text-gray-900 hover:bg-gray-100 transition" data-index="2">
+<span>Quels types d'emplois sont proposés ?</span>
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</button>
+<div class="faq-answer p-4 bg-white hidden">
+<p class="text-gray-600">Nous proposons une variété d'emplois dans différents secteurs : santé, éducation, ingénierie, technologies de l'information, hôtellerie, restauration, etc. Les postes sont attribués en fonction de vos qualifications et de votre expérience professionnelle.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-question w-full flex items-center justify-between bg-gray-50 p-4 text-left font-medium text-gray-900 hover:bg-gray-100 transition" data-index="3">
+<span>Est-ce que ma famille peut m'accompagner ?</span>
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</button>
+<div class="faq-answer p-4 bg-white hidden">
+<p class="text-gray-600">Oui, après une période probatoire de 6 mois, vous pourrez entamer les démarches pour faire venir votre famille au Canada. Notre équipe vous accompagnera dans ces démarches administratives.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<button class="faq-question w-full flex items-center justify-between bg-gray-50 p-4 text-left font-medium text-gray-900 hover:bg-gray-100 transition" data-index="4">
+<span>Que se passe-t-il après la fin du contrat ?</span>
+<i class="ri-arrow-down-s-line ri-lg faq-icon"></i>
+</button>
+<div class="faq-answer p-4 bg-white hidden">
+<p class="text-gray-600">À la fin de votre contrat initial (2 à 5 ans), vous aurez la possibilité de le renouveler. Si vous avez travaillé au Canada pendant une période suffisante, vous pourrez également être éligible pour demander la résidence permanente.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div>
+<h3 class="text-xl font-['Pacifico'] mb-4">Immigration Elite</h3>
+<p class="text-gray-400 mb-4">Votre partenaire de confiance pour l'immigration professionnelle au Canada.</p>
+<div class="flex space-x-4">
+<a href="#" class="text-gray-400 hover:text-white transition">
+<i class="ri-facebook-fill ri-lg"></i>
+</a>
+<a href="#" class="text-gray-400 hover:text-white transition">
+<i class="ri-twitter-fill ri-lg"></i>
+</a>
+<a href="#" class="text-gray-400 hover:text-white transition">
+<i class="ri-instagram-fill ri-lg"></i>
+</a>
+<a href="#" class="text-gray-400 hover:text-white transition">
+<i class="ri-linkedin-fill ri-lg"></i>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-medium mb-4">Liens Rapides</h4>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white transition">Accueil</a></li>
+<li><a href="#about" class="text-gray-400 hover:text-white transition">À propos</a></li>
+<li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+<li><a href="#recruitment" class="text-gray-400 hover:text-white transition">Recrutement</a></li>
+<li><a href="#apply" class="text-gray-400 hover:text-white transition">Postuler</a></li>
+<li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-medium mb-4">Services</h4>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white transition">Visa et Immigration</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Transport International</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Hébergement</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Carte de Séjour</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Emploi Garanti</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Intégration Sociale</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-medium mb-4">Contact</h4>
+<ul class="space-y-2">
+<li class="flex items-start">
+<i class="ri-map-pin-line ri-lg mr-2 mt-1"></i>
+<span class="text-gray-400">123 Avenue Immigration, Toronto, ON M5V 2H1, Canada</span>
+</li>
+<li class="flex items-center">
+<i class="ri-mail-line ri-lg mr-2"></i>
+<span class="text-gray-400">immigrationelitecanada@gmail.com</span>
+</li>
+<li class="flex items-center">
+<i class="ri-whatsapp-line ri-lg mr-2"></i>
+<span class="text-gray-400">+1 419-548-9982</span>
+</li>
+<li class="flex items-center">
+<i class="ri-time-line ri-lg mr-2"></i>
+<span class="text-gray-400">Lun - Ven: 9h00 - 17h00</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Immigration Elite Canada. Tous droits réservés.</p>
+<div class="flex space-x-6">
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Politique de confidentialité</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Conditions d'utilisation</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Mentions légales</a>
+</div>
+</div>
+</div>
+</footer>
+<script id="mobile-menu-script">
+document.addEventListener('DOMContentLoaded', function() {
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+mobileMenuButton.addEventListener('click', function() {
+mobileMenu.classList.toggle('hidden');
+});
+// Close mobile menu when clicking on a link
+const mobileLinks = mobileMenu.querySelectorAll('a');
+mobileLinks.forEach(link => {
+link.addEventListener('click', function() {
+mobileMenu.classList.add('hidden');
+});
+});
+});
+</script>
+<script id="file-input-script">
+document.addEventListener('DOMContentLoaded', function() {
+const fileInputs = {
+'cv': document.getElementById('cv'),
+'id-card': document.getElementById('id-card'),
+'photos': document.getElementById('photos'),
+'diploma': document.getElementById('diploma')
+};
+for (const [key, input] of Object.entries(fileInputs)) {
+if (input) {
+input.addEventListener('change', function() {
+const filenameElement = document.getElementById(`${key}-filename`);
+if (filenameElement) {
+if (this.files.length > 1) {
+filenameElement.textContent = `${this.files.length} fichiers sélectionnés`;
+} else if (this.files.length === 1) {
+filenameElement.textContent = this.files[0].name;
+} else {
+filenameElement.textContent = 'Choisir un fichier';
+}
+}
+});
+}
+}
+});
+</script>
+<script id="form-submission-script">
+document.addEventListener('DOMContentLoaded', function() {
+const applicationForm = document.getElementById('application-form');
+const contactForm = document.getElementById('contact-form');
+if (applicationForm) {
+applicationForm.addEventListener('submit', function(e) {
+e.preventDefault();
+const submitButton = this.querySelector('button[type="submit"]');
+submitButton.disabled = true;
+submitButton.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Envoi en cours...';
+const formData = new FormData(this);
+formData.append('_to', 'immigrationelitecanada@gmail.com');
+fetch('https://api.web3forms.com/submit', {
+method: 'POST',
+body: formData
+})
+.then(response => response.json())
+.then(data => {
+const successModal = document.createElement('div');
+successModal.className = 'fixed inset-0 flex items-center justify-center z-50';
+successModal.innerHTML = `
+<div class="fixed inset-0 bg-black bg-opacity-50"></div>
+<div class="bg-white rounded-lg p-8 max-w-md relative z-10">
+<div class="text-center">
+<div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<i class="ri-check-line ri-2x text-green-500"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Candidature Envoyée !</h3>
+<p class="text-gray-600 mb-6">Votre candidature a été soumise avec succès. Nous examinerons votre dossier et vous contacterons dans les plus brefs délais.</p>
+<button class="bg-primary text-white px-6 py-2 rounded-button" onclick="this.closest('.fixed').remove()">Fermer</button>
+</div>
+</div>
+`;
+document.body.appendChild(successModal);
+submitButton.disabled = false;
+submitButton.innerHTML = 'Soumettre ma candidature';
+applicationForm.reset();
+document.getElementById('cv-filename').textContent = 'Choisir un fichier';
+document.getElementById('id-filename').textContent = 'Choisir un fichier';
+document.getElementById('photos-filename').textContent = 'Choisir des fichiers';
+document.getElementById('diploma-filename').textContent = 'Choisir un fichier';
+})
+.catch(error => {
+const errorModal = document.createElement('div');
+errorModal.className = 'fixed inset-0 flex items-center justify-center z-50';
+errorModal.innerHTML = `
+<div class="fixed inset-0 bg-black bg-opacity-50"></div>
+<div class="bg-white rounded-lg p-8 max-w-md relative z-10">
+<div class="text-center">
+<div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<i class="ri-close-line ri-2x text-red-500"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Erreur</h3>
+<p class="text-gray-600 mb-6">Une erreur est survenue lors de l'envoi. Veuillez réessayer plus tard.</p>
+<button class="bg-primary text-white px-6 py-2 rounded-button" onclick="this.closest('.fixed').remove()">Fermer</button>
+</div>
+</div>
+`;
+document.body.appendChild(errorModal);
+submitButton.disabled = false;
+submitButton.innerHTML = 'Soumettre ma candidature';
+});
+});
+}
+if (contactForm) {
+contactForm.addEventListener('submit', function(e) {
+e.preventDefault();
+// Simulate form submission
+const submitButton = this.querySelector('button[type="submit"]');
+submitButton.disabled = true;
+submitButton.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Envoi en cours...';
+setTimeout(() => {
+alert('Votre message a été envoyé avec succès ! Nous vous répondrons dans les plus brefs délais.');
+submitButton.disabled = false;
+submitButton.innerHTML = 'Envoyer le message';
+contactForm.reset();
+}, 1500);
+});
+}
+});
+</script>
+<script id="faq-script">
+document.addEventListener('DOMContentLoaded', function() {
+const faqQuestions = document.querySelectorAll('.faq-question');
+faqQuestions.forEach(question => {
+question.addEventListener('click', function() {
+const index = this.getAttribute('data-index');
+const answer = this.nextElementSibling;
+const icon = this.querySelector('.faq-icon');
+// Toggle the current answer
+answer.classList.toggle('hidden');
+// Toggle icon rotation
+if (answer.classList.contains('hidden')) {
+icon.classList.remove('transform', 'rotate-180');
+} else {
+icon.classList.add('transform', 'rotate-180');
+}
+// Close other answers
+faqQuestions.forEach(q => {
+if (q.getAttribute('data-index') !== index) {
+const otherAnswer = q.nextElementSibling;
+const otherIcon = q.querySelector('.faq-icon');
+otherAnswer.classList.add('hidden');
+otherIcon.classList.remove('transform', 'rotate-180');
+}
+});
+});
+});
+// Open the first FAQ by default
+if (faqQuestions.length > 0) {
+const firstAnswer = faqQuestions[0].nextElementSibling;
+const firstIcon = faqQuestions[0].querySelector('.faq-icon');
+firstAnswer.classList.remove('hidden');
+firstIcon.classList.add('transform', 'rotate-180');
+}
+});
+</script>
+<script id="smooth-scroll-script">
+document.addEventListener('DOMContentLoaded', function() {
+const scrollLinks = document.querySelectorAll('a[href^="#"]');
+const homeLink = document.getElementById('home-link');
+
+if (homeLink) {
+homeLink.addEventListener('click', function(e) {
+e.preventDefault();
+if (window.location.pathname === '/') {
+window.scrollTo({
+top: 0,
+behavior: 'smooth'
+});
+} else {
+window.location.href = '/';
+}
+});
+}
+
+scrollLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+if (targetId === '#') return;
+const targetElement = document.querySelector(targetId);
+if (targetElement) {
+window.scrollTo({
+top: targetElement.offsetTop - 80,
+behavior: 'smooth'
+});
+}
+});
+});
+});
+</script>
+</body>
+</html>
